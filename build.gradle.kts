@@ -63,13 +63,13 @@ subprojects {
 
 project(":server") {
     dependencies {
-
+        implementation(project(":core"))
     }
 }
 
 project(":client") {
     dependencies {
-
+        implementation(project(":core"))
     }
 }
 
