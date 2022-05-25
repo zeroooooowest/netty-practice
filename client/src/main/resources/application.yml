@@ -1,0 +1,4 @@
+echo-client:
+  server:
+    host: localhost
+    port: 11111
